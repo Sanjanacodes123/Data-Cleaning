@@ -1,5 +1,5 @@
 data <- data.frame(
-  names = c("rk", "kallu", "anji", "rk"),
+  names = c("ram", "shyam", "krish", "ram"),
   marks = c(NA, 29, NA, 28)
 )
 sum(is.na(data))
@@ -19,4 +19,5 @@ data <- mutate(data, scores = scores + 5)
 new_data <- distinct(data)
 new_data
 new_data2 <- distinct(data, students, .keep_all = TRUE)
+
 new_data2
